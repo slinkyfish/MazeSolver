@@ -1,0 +1,114 @@
+--cpu Cortex-M3
+".\build\main.o"
+".\build\myfunctions.o"
+--library_type=microlib --strict --scatter "mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f103xb.sct"
+
+
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_tim.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_dac.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_flash.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/retarget.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_pccard.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_usart.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_hcd.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_spi_ex.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_dac_ex.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_dma.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/board.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_rtc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_cec.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_irda.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/cmsis_nvic.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_i2s.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_sd.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_crc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_rtc_ex.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_i2c.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_gpio.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/mbed_overrides.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_nand.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_smartcard.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_eth.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/startup_stm32f103xb.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_can.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_ll_usb.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_flash_ex.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_pcd_ex.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_gpio_ex.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_adc_ex.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_rcc_ex.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/system_stm32f1xx.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_tim_ex.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_wwdg.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_ll_fsmc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_sram.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_nor.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_cortex.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_uart.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_pwr.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_rcc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/hal_tick.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_ll_sdmmc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_iwdg.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_spi.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/sys.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_pcd.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f1xx_hal_adc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/mbed.ar
+            
+            --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\build\Example1.map" -o .\build\Example1.axf
